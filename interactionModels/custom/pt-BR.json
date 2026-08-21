@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "bolha_pessoal",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AskGptIntent",
+          "samples": [
+            "pergunte {bolha_pessoal}",
+            "fale sobre {bolha_pessoal}",
+            "o que e {bolha_pessoal}",
+            "responda {bolha_pessoal}",
+            "pesquise {bolha_pessoal}",
+            "diga {bolha_pessoal}",
+            "quantas {bolha_pessoal}",
+            "quanto {bolha_pessoal}",
+            "qual {bolha_pessoal}",
+            "quais {bolha_pessoal}",
+            "como {bolha_pessoal}",
+            "por que {bolha_pessoal}",
+            "porque {bolha_pessoal}",
+            "me diga {bolha_pessoal}",
+            "saberia dizer {bolha_pessoal}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "bolha pessoal"
+    }
+  }
+}
