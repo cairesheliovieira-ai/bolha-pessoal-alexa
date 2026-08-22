@@ -39,8 +39,6 @@ pensado pra ser executado standalone com `python lambda_function.py`. A validaç
 funcionamento foi feita pelo simulador do Alexa Developer Console e por testes de voz
 direto no dispositivo Echo pessoal.
 
-[
+**Vídeo**: Interação com a Alexa skill respondendo perguntas via Gemini API
 
 https://github.com/user-attachments/assets/0d18c030-db07-45ec-9378-7c5daac10bc9
-
-]
