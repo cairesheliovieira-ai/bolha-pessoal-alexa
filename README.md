@@ -41,4 +41,8 @@ direto no dispositivo Echo pessoal.
 
 **Vídeo**: Interação com a Alexa skill respondendo perguntas via Gemini API
 
-https://github.com/user-attachments/assets/0d18c030-db07-45ec-9378-7c5daac10bc9
+
+
+https://github.com/user-attachments/assets/e2e25f4e-02a3-44f9-9723-eecf9dbc2afb
+
+
