@@ -11,12 +11,6 @@ from ask_sdk_core.dispatch_components import AbstractRequestHandler, AbstractExc
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# Versão para o GitHub: a chave é lida de uma variável de ambiente (GEMINI_API_KEY),
-# nunca fica escrita aqui. Veja o .env.example para o formato esperado.
-# ATENÇÃO: como o skill roda como Alexa-hosted, a versão publicada de fato no Code tab
-# do Alexa Developer Console precisa ter a chave como constante literal (esse tipo de
-# skill não suporta variáveis de ambiente) — as duas versões divergem só nesse ponto,
-# de propósito.
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 GEMINI_MODEL = "gemini-3.5-flash-lite"
